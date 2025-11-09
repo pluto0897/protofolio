@@ -161,14 +161,14 @@
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init("oykqlWhtIrWYLlm05"); // Make sure this is your correct public key
+      emailjs.init("kO9k2yrpuNjhl_ePs"); // Make sure this is your correct public key
     })();
 
     document.getElementById("contact-form").addEventListener("submit", function(event) {
       event.preventDefault();
 
       // Replace these with your actual Service ID and Template ID
-      emailjs.sendForm("service_ddo08ai", "template_ozyge3f", this)
+      emailjs.sendForm("service_31s47og", "template_jufh388", this)
         .then(function() {
           alert("✅ تم إرسال الرسالة بنجاح!");
           document.getElementById("contact-form").reset();
